@@ -51,7 +51,7 @@ namespace Cliente.API.Data.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Número")
+                    b.Property<string>("Numero")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("TipoPessoa")

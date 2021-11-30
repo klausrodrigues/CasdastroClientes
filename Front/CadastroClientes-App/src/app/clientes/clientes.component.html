@@ -1,0 +1,17 @@
+<h1>Clientes Registrados </h1>
+
+<div *ngFor="let cliente of clientes">
+  <p><b>Nome:</b> {{cliente.nome}}</p>
+  <p><b>Data Nascimento:</b> {{cliente.dataNascimento}}</p>
+  <p><b>CPF/CNPJ:</b> {{cliente.cpfcnpj}}</p>
+  <p><b>Tipo Pessoa:</b> {{cliente.tipoPessoa}}</p>
+  <p><b>Endereco:</b> {{cliente.endereco}}</p>
+  <p><b>Número:</b> {{cliente.numero}}</p>
+  <p><b>Complemento</b> {{cliente.complemento}}</p>
+  <p><b>Bairro:</b> {{cliente.bairro}}</p>
+  <p><b>CEP:</b> {{cliente.cep}}</p>
+  <p><b>Cidade:</b> {{cliente.cidade}}</p>
+  <p><b>Estado:</b> {{cliente.estado}}</p>
+  <hr>
+
+</div>

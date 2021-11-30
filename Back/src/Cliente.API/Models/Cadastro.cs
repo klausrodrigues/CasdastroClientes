@@ -13,7 +13,7 @@ namespace Cliente.API.Models
 
         public string Endereco { get; set; }
 
-        public string Número { get; set; }
+        public string Numero { get; set; }
 
         public string Complemento { get; set; }
 
